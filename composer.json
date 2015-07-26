@@ -1,0 +1,37 @@
+{
+    "name": "monstrum/symfony-cropbox-bundle",
+    "type": "symfony-bundle",
+    "description": "Easy integration of Cropbox into symfony2",
+    "keywords": ["symfony", "template", "cropbox"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Erwin Eu",
+            "email": "eu.erwin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Monstrum\\SymfonyJCropBundle\\": ""
+        }
+    },
+    "target-dir": "Monstrum/SymfonyJCropBundle",
+    "require": {
+        "monstrum/jquery-cropbox": "^0.2.0"
+    },
+    "suggest":  {
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Monstrum\\SymfonyCropboxBundle\\Composer\\ScriptHandler::postInstallSymlinkSymfonyPlugin"
+        ],
+        "post-update-cmd": [
+            "Monstrum\\SymfonyCropboxBundle\\Composer\\ScriptHandler::postInstallSymlinkSymfonyPlugin"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
