@@ -25,7 +25,7 @@ use Mopa\Bridge\Composer\Util\ComposerPathFinder;
 class SymfonyJQueryPluginSymlinkCommand extends ContainerAwareCommand
 {
     public static $monstrumSymfonyJQueryPluginBundleName = "monstrum/symfony-cropbox-bundle";
-    public static $pluginName = "monstrum/jquery-cropbox";
+    public static $pluginName = "monstrum/cropbox";
     public static $sourceSuffix = 'dist';
     public static $targetSuffix = 'Resources/public';
     public static $pathName = 'SymfonyCropbox';
