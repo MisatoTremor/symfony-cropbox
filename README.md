@@ -1,9 +1,9 @@
-# symfony-jcrop
+# symfony-cropbox
 
-Easy Integration for jCrop Plugin Bundle for Symfony
+Easy Integration for Cropbox jQuery Plugin Bundle for Symfony
 
-To install symlink for the jcrop.js
+To install symlink for the jquery.cropbox.js
 
 just run
-monstrum:symfony-jcrop:symlink
+monstrum:symfony-cropbox:symlink
 on the console
