@@ -17,7 +17,7 @@
     },
     "target-dir": "Monstrum/SymfonyJCropBundle",
     "require": {
-        "monstrum/jquery-cropbox": "^0.2.0"
+        "monstrum/cropbox": "^0.2.0"
     },
     "suggest":  {
     },
