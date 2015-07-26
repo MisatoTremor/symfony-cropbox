@@ -12,10 +12,10 @@
     ],
     "autoload": {
         "psr-0": {
-            "Monstrum\\SymfonyJCropBundle\\": ""
+            "Monstrum\\SymfonyCropboxBundle\\": ""
         }
     },
-    "target-dir": "Monstrum/SymfonyJCropBundle",
+    "target-dir": "Monstrum/SymfonyCropboxBundle",
     "require": {
         "monstrum/cropbox": "^0.2.0"
     },

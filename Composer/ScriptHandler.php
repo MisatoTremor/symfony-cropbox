@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of the MonstrumSymfonyJCrop.
+ * This file is part of the MonstrumSymfonyCropbox.
  *
  * (c) Erwin Eu <eu.erwin@gmail.com>
  */
@@ -26,7 +26,7 @@ class ScriptHandler
         );
         list($symlinkTarget, $symlinkName) = $cmanager->getSymlinkFromComposer(
             SymfonyJQueryPluginSymlinkCommand::$monstrumSymfonyJQueryPluginBundleName,
-            SymfonyJQueryPluginSymlinkCommand::$jcropName,
+            SymfonyJQueryPluginSymlinkCommand::$pluginName,
             $options
         );
         $symlinkTarget .= !empty(SymfonyJQueryPluginSymlinkCommand::$sourceSuffix) ? DIRECTORY_SEPARATOR . SymfonyJQueryPluginSymlinkCommand::$sourceSuffix : '';
