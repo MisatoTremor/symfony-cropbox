@@ -25,7 +25,7 @@ class ScriptHandler
             'sourcePrefix' => self::getSourcePrefix()
         );
         list($symlinkTarget, $symlinkName) = $cmanager->getSymlinkFromComposer(
-            SymfonyJQueryPluginSymlinkCommand::$monstrumSymfonyJQueryPluginBundleName,
+            SymfonyJQueryPluginSymlinkCommand::$monstrumSymfonyCropboxBundleName,
             SymfonyJQueryPluginSymlinkCommand::$pluginName,
             $options
         );
@@ -49,7 +49,7 @@ class ScriptHandler
             'sourcePrefix' => self::getSourcePrefix()
         );
         list($symlinkTarget, $symlinkName) = $cmanager->getSymlinkFromComposer(
-            SymfonyJQueryPluginSymlinkCommand::$monstrumSymfonyJQueryPluginBundleName,
+            SymfonyJQueryPluginSymlinkCommand::$monstrumSymfonyCropboxBundleName,
             SymfonyJQueryPluginSymlinkCommand::$pluginName,
             $options
         );
